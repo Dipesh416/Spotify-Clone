@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family:sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    background-color: black;
+    height: 65px;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 46px;
+    padding: 0 6px;
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    padding: 33px;
+    border-radius: 12px;
+    background-image: url('bg.jpg');
+    background-size: 100%;
+}
+.songList{
+    margin-top: -28px;
+}
+.songListContainer{
+    margin-top: 15px;
+}
+.bottam{
+    
+    height: 100px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    bottom: 0;
+}
+.icons{
+    margin-top: 12px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgresBar{
+    width: 80vw;
+    cursor: pointer;
+    
+}
+.songItem {
+    height: 30px;
+    display: flex;
+    background-color: white;
+    /* width: 100%; */
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 23px;
+}
+.songItem img{
+    height: 25px;
+    margin: 0 12px;
+    border-radius:30px;
+}
+.timeStamp{
+    margin: 0 10px;
+}
+.timeStamp i{
+    font-size: 1.3em;
+    cursor: pointer;
+    padding: 7px;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+.play-icon {
+    color: black; /* Change color to black */
+}
+.icons i{
+    font-size: 23px;
+}  
+  
